@@ -1,2 +1,2 @@
-# twitter-bot
-Automate tweets with tweepy
+# Twitter Bot 🐦🤖 
+Automate tweets with tweepy.
