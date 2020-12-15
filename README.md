@@ -1,5 +1,5 @@
 # Twitter Bot 🐦🤖 
-Automate tweets with tweepy.
+I wanted to share my favorite book quotes (which are stored in a text file) on Twitter, but didn't want to manually copy and paste each one. Naturally, I decided to automate this task using Twitter's API and Python's *tweepy* library. I also used *re* library to create hashtags based on the book's title and author's name.
 
 ## Functions
 * ```request_user_input()``` - Type one of the following in the command line: tweet, shuffle quotes, add quote, or exit.
