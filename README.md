@@ -1,7 +1,14 @@
 # Twitter Bot 🐦🤖 
-I wanted to share my favorite book quotes (which are stored in a text file) on Twitter, but didn't want to manually copy and paste each one. Naturally, I decided to automate this task using Twitter's API and Python's *tweepy* library. I also used *re* library to create hashtags based on the book's title and author's name.
+I wanted to share some book quotes (which are stored in a text file) on Twitter, but didn't want to manually copy and paste each one. Naturally, I decided to automate this task using Twitter's API and Python's *tweepy* library. I also used *re* library to create hashtags based on the book's title and author's name.
 
-## Functions
+## Running the code
+Download [*tweet_quote.py*](code/tweet_quote.py) and [*quotes.txt*](data/quotes.txt) files to the same directory. Open your terminal and run ```python3 tweet_quote.py```. You'll be prompted for input. Type "tweet" in your terminal to tweet the last quote stored in *quotes.txt*. You can also type "shuffle quotes", "add quote", or "exit".
+
+If you wish to add your own quote, it must be in the following format: "Quote text.",Book Title,Book Author
+
+Here's an example: "It was a trick of his, to set a sentence out like a plate on a table and see what you would put on it.",Circe,Madeline Miller
+
+## Available functions
 * ```request_user_input()``` - Type one of the following in the command line: tweet, shuffle quotes, add quote, or exit.
 * ```shuffle_quotes()``` - Shuffles quotes currently stored in text file. (I sometimes do this after adding a lot of new quotes from the same book.)
 * ```is_file_empty(lines)``` - Takes lines as input; returns True if there are no lines (meaning quotes.txt is empty) and False otherwise. 
