@@ -13,7 +13,7 @@ Say the last line in the text file was: "I hope your bacon burns.",Diana Wynne J
 
 Running the code would produce the following tweet:
 
-
+<img src="tweet.jpg" width = 300> 
 
 
 ## Functions
