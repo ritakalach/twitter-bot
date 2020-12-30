@@ -7,9 +7,9 @@ Download [*tweet_quote.py*](code/tweet_quote.py) and [*quotes.txt*](data/quotes.
 If you wish to add your own quote, it must be in the following format: "Quote text.",Book Title,Book Author
 
 ## Available functions
-* ```request_user_input()``` - Type one of the following in the command line: "tweet", "shuffle quotes", "add quote", or "exit"
-* ```shuffle_quotes()``` - Shuffles quotes currently stored in text file (I sometimes do this after adding a lot of new quotes from the same book)
-* ```is_file_empty(lines)``` - Takes lines as input and returns True if there are no lines (meaning quotes.txt is empty) and False otherwise
-* ```add_quote()``` - Requests quote information from user and adds it to the text file
-* ```tweet_quote()``` - Tweets last quote stored in quotes.txt file
-* ```prepare_tweet(text)``` - Helper function that creates appropriate hashtags from the book title and author's name
+* ```request_user_input()``` - type one of the following in the command line: "tweet", "shuffle quotes", "add quote", or "exit"
+* ```shuffle_quotes()``` - shuffles quotes currently stored in text file (I sometimes do this after adding a lot of new quotes from the same book)
+* ```is_file_empty(lines)``` - takes lines as input and returns True if there are no lines (meaning quotes.txt is empty) and False otherwise
+* ```add_quote()``` - requests quote information from user and adds it to the text file
+* ```tweet_quote()``` - tweets last quote stored in quotes.txt file
+* ```prepare_tweet(text)``` - helper function that creates appropriate hashtags from the book title and author's name
