@@ -20,6 +20,6 @@ If you wish to add your own quote, it must be in the following format: "Quote te
 ## Example
 Say the last line in the text file was: "I hope your bacon burns.",Diana Wynne Jones,Howl's Moving Castle
 
-Running the code would result in the following tweet:
+Running the code would produce the following tweet:
 
 <img src="tweet.jpg" width = 300> 
