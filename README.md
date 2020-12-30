@@ -12,7 +12,7 @@ I had a backlog of book quotes stored in a text file that I wanted to share on T
 
 
 ## Running the code
-Download [*tweet_quote.py*](code/tweet_quote.py) and [*quotes.txt*](data/quotes.txt) files to the same directory. In *tweet_quotes.py* make sure to update lines 136-139 with your account credentials. Open the terminal and run ```python3 tweet_quote.py```. You'll be prompted for input. Type "tweet" in the terminal to tweet the last quote stored in *quotes.txt*. You can also type "shuffle quotes", "add quote", or "exit".
+Download [*tweet_quote.py*](tweet_quote.py) and [*quotes.txt*](quotes.txt) files to the same directory. In *tweet_quotes.py* make sure to update lines 136-139 with your account credentials. Open the terminal and run ```python3 tweet_quote.py```. You'll be prompted for input. Type "tweet" in the terminal to tweet the last quote stored in *quotes.txt*. You can also type "shuffle quotes", "add quote", or "exit".
 
 If you wish to add your own quote, it must be in the following format: "Quote text.",Book Title,Book Author
 
