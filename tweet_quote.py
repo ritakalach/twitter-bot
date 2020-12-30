@@ -95,8 +95,8 @@ class TwitterBot:
 		# Split book title and author
 		title, author = text[end_of_quote_idx + 1:].split(",")
 		# Create hashtags
-		title_hashtag = " #" + title.replace(" ", "")
-		author_hashtag = " #" + author.replace(" ", "")
+		title_hashtag = " #" + "".join([ch for ch in title if ch.isalnum()])
+		author_hashtag = " #" + "".join([ch for ch in author if ch.isalnum()])
 
 		return quote, title_hashtag, author_hashtag
 
