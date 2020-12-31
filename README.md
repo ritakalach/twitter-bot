@@ -1,5 +1,5 @@
 # Twitter Bot 🐦🤖 
-I had a backlog of book quotes stored in a text file that I wanted to share on Twitter, but I didn't want to manually copy and paste each one. Naturally, I decided to automate this task via the Twitter API. I used Python's *Tweepy* library to accomplish this.
+I had a backlog of book quotes stored in a text file that I wanted to share on Twitter, but I didn't want to manually copy and paste each one. Naturally, I decided to automate this task via the Twitter API. I used Python's Tweepy library to accomplish this.
 
 
 ## Running the code
