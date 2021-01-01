@@ -3,11 +3,11 @@ I had a backlog of book quotes stored in a text file that I wanted to share on T
 
 
 ## Running the code
-Download [*tweet_quote.py*](tweet_quote.py) and [*quotes.txt*](quotes.txt) files to the same directory. In *tweet_quotes.py* make sure to update lines 136-139 with your account credentials. Open the terminal and run ```python3 tweet_quote.py```. You'll be prompted for input. Type "tweet" in the terminal to tweet the last quote stored in *quotes.txt*. You can also type "shuffle quotes", "add quote", or "exit".
+Download [*tweet_quote.py*](tweet_quote.py) and [*quotes.txt*](quotes.txt) files to the same directory. In *tweet_quotes.py* make sure to update lines 136-139 with your account credentials. Run ```python3 tweet_quote.py``` in the terminal. You'll be prompted for input. Type "tweet" to tweet the last quote stored in *quotes.txt*. You can also type "shuffle quotes", "add quote", or "exit".
 
 <img src="media/command_line.gif" width = 500> 
 
-If you wish to add your own quote, it must be in the following format: "Quote text.",Book Title,Book Author
+If you wish to add your own quote, it must be in the following format: "Quote",Book Title,Book Author
 
 
 ## Example
