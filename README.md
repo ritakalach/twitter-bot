@@ -18,7 +18,7 @@ Running the code would produce the following tweet:
 
 ## Functions
 * ```request_user_input()``` - type one of the following in the command line: "tweet", "shuffle quotes", "add quote", or "exit"
-* ```shuffle_quotes()``` - shuffles quotes currently stored in text file (I sometimes do this after adding a lot of new quotes from the same book)
+* ```shuffle_quotes()``` - shuffles quotes currently stored in text file (I sometimes do this after adding a lot of quotes from the same book)
 * ```is_file_empty(lines)``` - takes lines as input and returns True if there are no lines (meaning quotes.txt is empty) and False otherwise
 * ```add_quote()``` - requests quote information from user and adds it to the text file
 * ```tweet_quote()``` - tweets last quote stored in quotes.txt file
