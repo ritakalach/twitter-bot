@@ -5,6 +5,8 @@ I had a backlog of book quotes stored in a text file that I wanted to share on T
 ## Running the code
 Download [*tweet_quote.py*](tweet_quote.py) and [*quotes.txt*](quotes.txt) files to the same directory. In *tweet_quotes.py* make sure to update lines 136-139 with your account credentials. Open the terminal and run ```python3 tweet_quote.py```. You'll be prompted for input. Type "tweet" in the terminal to tweet the last quote stored in *quotes.txt*. You can also type "shuffle quotes", "add quote", or "exit".
 
+<img src="media/command_line.gif" width = 500> 
+
 If you wish to add your own quote, it must be in the following format: "Quote text.",Book Title,Book Author
 
 
@@ -13,7 +15,7 @@ Say the last line in the text file was: "I hope your bacon burns.",Diana Wynne J
 
 Running the code would produce the following tweet:
 
-<img src="example_tweet.jpg" width = 400> 
+<img src="media/example_tweet.jpg" width = 400> 
 
 
 ## Functions
